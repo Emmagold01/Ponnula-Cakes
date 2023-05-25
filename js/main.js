@@ -10,7 +10,7 @@ function handleSubmit(e) {
     lastName = lname.value
     emailName = email.value
     message = msg.value
-    
+
     form.reset();
     Swal.fire(
         'Good job!',
@@ -20,3 +20,9 @@ function handleSubmit(e) {
 }
 
 form.addEventListener('submit', handleSubmit)
+
+function doSomeThing() {
+    console.log("hello world")
+}
+
+setTimeout(doSomeThing, 2000)
