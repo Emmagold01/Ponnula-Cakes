@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="CSS/Style.css">
     <link rel="stylesheet" media="screen and (max-width:820px)" href="css/Tablet.css">
     <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
+    <link rel="stylesheet" href="css/sweetAlert.css">
     <title>Ponula Cakes | Contact</title>
 </head>
 <body>
@@ -38,7 +39,7 @@
          <div>
             <img src="IMG/ponula man.jpg" alt="">
          </div>
-        <form action="process.php">
+        <form action="" class="handleSubmit">
             <h3>Contact Form</h3>
             <div class="form-group">
                 <label for="first-name">First Name</label>
@@ -54,7 +55,7 @@
             </div>
             <div class="form-group">
                 <label for="message">Message</label>
-                <textarea name="message"  placeholder="Write Your Note Or Questions Here..." required></textarea>
+                <textarea name="message" id="msg"  placeholder="Write Your Note Or Questions Here..." required></textarea>
             </div>
             <button type="submit" class="btn-contact ">Send Message</button>
         </form>
@@ -91,5 +92,7 @@
       </div>
     </div>
   </footer>
+  <script src="js/sweelAlert.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
