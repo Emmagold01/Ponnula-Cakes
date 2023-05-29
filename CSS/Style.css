@@ -70,6 +70,7 @@
     color: #fff;
     padding: 1rem;
     font-size: 0.8rem;
+    margin-top: 1rem;
    }
 
    .btn-contact:hover {
@@ -383,20 +384,15 @@
     margin-bottom: 5px;
 }
 
-  #contact-form input,
-  #contact-form textarea {
+  #contact-form input {
     width:  100%;
     padding: 10px;
     border: 1px #ddd solid;
     border-radius: 8px;
 }
 
-  #contact-form textarea {
-    height: 200px;
-}
 
-#contact-form input:focus,
-#contact-form textarea:focus {
+#contact-form input:focus {
     outline: none;
     border-color: #e48b16;
 }
