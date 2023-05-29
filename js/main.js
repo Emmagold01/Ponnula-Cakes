@@ -2,19 +2,19 @@ const form = document.querySelector(".handleSubmit")
 const fname = document.querySelector("#first-name")
 const lname = document.querySelector("#last-name")
 const email = document.querySelector("#email")
-const msg = document.querySelector("#msg")
+const msg = document.querySelector("#phone")
 
 function handleSubmit(e) {
     e.preventDefault()
     firstName = fname.value
     lastName = lname.value
     emailName = email.value
-    message = msg.value
+    phoneNumber = phone.value
 
     form.reset();
     Swal.fire(
         'Good job!',
-        'Submitted Successfully!!!',
+        'You Have Registered Successfully!!!',
         'success'
     )
 }
