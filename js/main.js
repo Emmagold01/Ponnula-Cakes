@@ -17,6 +17,7 @@ function handleSubmit(e) {
         'You Have Registered Successfully!!!',
         'success'
     )
+
 }
 
 form.addEventListener('submit', handleSubmit)
@@ -26,3 +27,11 @@ function doSomeThing() {
 }
 
 setTimeout(doSomeThing, 2000)
+
+// Initialize ScrollReveal
+ScrollReveal().reveal('.card', { delay: 200, distance: '50px', origin: 'bottom', interval: 200 });
+
+// You can adjust the options above to customize the animation behavior
+
+// Add any other elements you want to animate
+ScrollReveal().reveal('.fade-in', { delay: 200, distance: '50px', origin: 'bottom', interval: 200 });
